@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einer Enciso CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> Hoja de Vida</h1>
+        <nav>
+            <ul>
+                <li><a href="#datos-personales">Datos Personales</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="datos-personales">
+        <h2>Datos Personales</h2>
+        <div class="contenido">
+            <img src="foto1..jpg" alt="Foto de perfil">
+            <div class="datos">
+                <p><strong>Nombre:</strong> Einer Alfonso </p>
+                <p><strong>Apellido:</strong> Enciso Barragán </p>
+                <p><strong>Edad:</strong> 31 años</p>
+                <p><strong>Dirección:</strong> Carrera 74 # 44 - 29 sur, Bogotá</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="educacion">
+        <h2>Educación</h2>
+        <table>
+            <tr>
+                <th>Institución</th>
+                <th>Título</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td><a href="https://ucompensar.edu.co/graduados/">Fundación Universitaria Compensar</a></td>
+                <td>Estudiante ingeniería de software</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td><a href="https://esab.com/co/sam_es/esab-university/school/instituto-soldadura-westarco/">Instituto West Arco</a></td>
+                <td>Certificación en Soldadura</td>
+                <td>2015</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.sena.edu.co/es-co/Paginas/default.aspx">Servicio Nacional de Aprendizaje SENA</a></td>
+                <td>Técnico en Soldadura</td>
+                <td>2009</td>
+            </tr>
+            <tr>
+                <td><a href="https://instituciondiegofallon.edu.co/">Institución Educativa "Diego Fallon"</a></td>
+                <td>Bachiller académico</td>
+                <td>2008</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <div class="experiencia">
+            <h3>Soldador Calificado en Metálicas e Igeniería SAS</h3>
+            <p><em>2023 - Presente</em></p>
+            <ul>
+                <li>Operación de equipos semiautomáticos de soldaura</li>
+                <li>Interpretación de planos</li>
+                <li>Manejo de herramientas manuales</li>
+            </ul>
+        </div>
+        <div class="experiencia">
+            <h3>Soldador 1A en Schrader Camargo</h3>
+            <p><em>2021 - 2022</em></p>
+            <ul>
+                <li>Operación de equipos para soldadura FCAW</li>
+                <li>Reparación y fabricación de piezas metálicas</li>
+                <li>Interpretación de planos</li>
+            </ul>
+        </div>
+        <div class="experiencia">
+            <h3>Soldador 1A en Consorcio Andino</h3>
+            <p><em>2018 - 2021</em></p>
+            <ul>
+                <li>Operación de equipos para soldadura SMAW y FCAW</li>
+                <li>Apoyo en operaciones de montaje</li>
+                <li>Interpretación de planos</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2024 Einer Alfonso Enciso Barragán derechos reservados
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
